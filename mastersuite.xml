@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="demoSuite">
+  <test thread-count="5" name="demoTest">
+    <classes>
+      <class name="nivd.ng2"/>
+       <class name="nivd.test_demo1ng"/>
+        <class name="nivd.clas_demo2ng1"/>
+    </classes>
+  </test> <!-- demoTest -->
+</suite> <!-- demoSuite -->
